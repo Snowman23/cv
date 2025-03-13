@@ -32,10 +32,10 @@ body{
 }
 .p1 span{
     font-weight: 100;
-    color: #FFFFFF;
+    color: #000000;
 }
 .p2{
-    color: #FFFFFF;
+    color: #000000;
     font-size: 20px;
     margin: 0px;
     margin-top: 10px;
@@ -49,7 +49,7 @@ body{
     float: left;
 }
 .line{
-    border-left: 1px solid #FFFFFF;
+    border-left: 1px solid #000000;
     height: 700px;
     width: 2%;
     margin-top: 30px;
@@ -64,7 +64,7 @@ body{
     font-weight: 600;
 }
 .p3{
-    color: #FFFFFF;
+    color: #000000;
     margin-bottom: -5px;
 }
 .phone{
@@ -78,9 +78,9 @@ body{
     padding: 5px;
 }
 .skills li span{
-    color: #FFFFFF;
+    color: #000000;
 }
 .p4{
     font-size: 14px;
-    color: #FFFFFF;
+    color: #000000;
 }
