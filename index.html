@@ -17,9 +17,18 @@
                 <div class="col-div-4">
                     <div class="content-box" style="padding-left: 40px;">
                         <p class="head">Contact</p>
-                        <p class="p3"><a href="pages/C.html" target="_blank"><i class="phone">&nbsp;&nbsp;mail</i></a></p>
-                        <p class="p3"><a href="pages/C.html" target="_blank"><i class="phone">&nbsp;&nbsp;phone</i></a></p>
-                        <p class="p3"><a href="pages/C.html" target="_blank"><i class="phone">&nbsp;&nbsp;git</i></a></p>
+                        <p class="p3"><a href="#" onclick="copyToClipboard('flavius.andrei205@gmail.com.com'); return false;"><i class="phone">&nbsp;&nbsp;Gmail</i></a></p>
+                        <p class="p3"><a href="#" onclick="copyToClipboard('+40738536345'); return false;"><i class="phone">&nbsp;&nbsp;Phone number</i></a></p>
+                        <p class="p3"><a href="https://github.com/Snowman23" target="_blank"><i class="phone">&nbsp;&nbsp;GitHub profile</i></a></p>
+                        <script>
+                        function copyToClipboard(text) {
+                            navigator.clipboard.writeText(text).then(() => {
+                                alert('Copied: ' + text);
+                            }).catch(err => {
+                                console.error('Failed to copy: ', err);
+                            });
+                        }
+                        </script>
                     <br/>
                     <p class="head">Skills</p>
                     <ul class="skills">
@@ -49,7 +58,7 @@
                         <p class="p3" style="font-size: 14px;">No prior experience outside of personal projects</p>
                         <p style="font-size: 20px;">Projects</p>
                         <ul class="skills">
-                            <li><a href="pages/C.html" target="_blank"><span>C</span></a></li>
+                            <li><a href="https://github.com/Snowman23/Sagrada" target="_blank"><span>C</span></a></li>
                             <li><a href="pages/C.html" target="_blank"><span>Java</span></a></li>
                             <li><a href="pages/C.html" target="_blank"><span>SQL</span></a></li>
                             <li><a href="pages/C.html" target="_blank"><span>Python</span></a></li>
