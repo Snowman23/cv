@@ -1,1 +1,4 @@
-SQL proj
+My SQL project was made in Apex Oracle 
+It is database for a generic social media app
+The site aggragates info aboyt.... and the "Adding_form" page allows to create a comment on a post  
+https://apex.oracle.com/pls/apex/r/beetlejuice/social_media/home?session=115402094728201
