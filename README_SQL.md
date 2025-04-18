@@ -6,6 +6,12 @@ A lightweight, functional **social media web app** built using Oracle APEX — d
 
 This project simulates a **mini social platform**, allowing users to post, interact, and explore a social feed. Built using Oracle APEX's declarative UI components, it demonstrates core CRUD functionality, session management, and UI theming — all without writing heavy front-end code.
 
+## 🚀 Live Demo
+
+▶️ [Try it on Oracle APEX](https://apex.oracle.com/pls/apex/r/beetlejuice/social_media/home)
+
+> *Note: You may need to log in or create a temporary session if prompted by Oracle's environment.*
+
 ## 🔧 Features
 
 - 📝 Post creation & management
@@ -14,12 +20,6 @@ This project simulates a **mini social platform**, allowing users to post, inter
 - 🔍 User profile viewing
 - 🧭 Responsive layout with built-in APEX themes
 - 🔐 Basic session-based access handling
-
-## 🚀 Live Demo
-
-▶️ [Try it on Oracle APEX](https://apex.oracle.com/pls/apex/r/beetlejuice/social_media/home)
-
-> *Note: You may need to log in or create a temporary session if prompted by Oracle's environment.*
 
 ## 🛠 Tech Stack
 
