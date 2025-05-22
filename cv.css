@@ -51,7 +51,7 @@ body{
 }
 .line{
     border-left: 1px solid #000000;
-    height: auto;
+    height: 1000px;
     width: 2%;
     margin-top: 30px;
     float: left;
