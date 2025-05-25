@@ -1,119 +1,121 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>My CV</title>
-        <link rel="stylesheet" href="cv.css">
-    </head>
-    <body>
-        <div class="main">
-            <div class="top-section">
-                <img src="" class="profile">
-                <p class="p1">Neacsu Flavius</p>
-                <p class="p1>Computer Science Student </p>
-            </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My CV</title>
+  <link rel="stylesheet" href="cv.css" />
+</head>
+<body>
+  <div class="main">
+    <div class="top-section">
+      <img src="" class="profile" alt="Profile picture" />
+      <p class="p1">Neacsu Flavius</p>
+      <button onclick="window.print()" style="margin: 20px auto; display: block;">Download as PDF</button>
+      <p class="p2">Computer Science Student</p>
+    </div>
 
-            <div class="clearfix">
-                <div class="col-div-4">
-                    <div class="content-box" style="padding-left: 40px;">
-                        <p class="head">Contact</p>
-                        <p class="p3"><a href="https://www.linkedin.com/in/neacsu-flavius-158475300/" target="_blank"><i class="phone">&nbsp;&nbsp;Linkedin profile</i></a></p>
-                        <p class="p3"><a href="#" onclick="copyToClipboard('flavius.andrei205@gmail.com'); return false;"><i class="phone">&nbsp;&nbsp;Gmail</i></a></p>
-                        <p class="p3"><a href="#" onclick="copyToClipboard('+40738536345'); return false;"><i class="phone">&nbsp;&nbsp;Phone number</i></a></p>
-                        <p class="p3"><a href="https://github.com/Snowman23" target="_blank"><i class="phone">&nbsp;&nbsp;GitHub profile</i></a></p>
-                        <script>
-                        function copyToClipboard(text) {
-                            navigator.clipboard.writeText(text).then(() => {
-                                alert('Copied: ' + text);
-                            }).catch(err => {
-                                console.error('Failed to copy: ', err);
-                            });
-                        }
-                        </script>
-                    <br/>
-                    <p class="head">Skills</p>
-                    <ul class="skills">
-                        <h5>Programming Languages:</h5>
-                        <li><span>C </span><small><i>(Intermediate)</i></small></li>
-                        <li><span>Java</span><small><i>(Intermediate)</i></small></li>
-                        <li><span>SQL</span><small><i>(Intermediate)</i></small></li>
-                        <li><span>Python</span><small><i>(Beginner)</i></small></li>
-                        <h5>Web Development:</h5>
-                        <li><span>HTML</span><small><i>(Beginner)</i></small></li>
-                        <h5>Tools & Technologies:</h5>
-                        <li><span>Oracle APEX</span></li>
-                        <li><span>Git</span></li>
-                        <h5>Digital Competence:</h5>
-                        <li><span>Microsoft Office</span></li>
-                        <li><span>Visual Studio Code</span></li>
-                       
-                    </ul>
-                    <br/>
-                    </div>
-                </div>
-                <div class="line"></div>
-                <div class="col-div-8">
-                    <div class="content-box">
-                        <p class="head">Profile</p>
-                        <p class="p3" style="font-size: 14px;">Motivated and detail-oriented Computer Science student at Politehnica University of Timișoara, with hands-on experience in C, Java, SQL, and Python.<br>
-                                                                Demonstrated ability to solve complex problems and collaborate effectively in team settings. Eager to apply academic knowledge to real-world challenges, particularly in software development and data analysis.</p>
-                            <br/>
-                        <p class="head">Technical Experience</p>
-                        <ul class="skills">
-                            <li><a href="https://github.com/Snowman23/Sagrada" target="_blank">Sagrada</a><br>
-                            <i><small>Developed a console-based version of the Sagrada board game using C. Implemented game logic and user interface.</small></i></li>
-                            <li><a href="https://github.com/Snowman23/cv/blob/master/README_SQL.md" target="_blank">Oracle APEX</a><br>
-                            <i><small>Created a web application for managing social media records using Oracle APEX and SQL. Focused on database design and front-end development.</small></i></li>
-                    <!--        <li><a href="https://github.com/Snowman23/Sagrada" target="_blank">Not_yet</a><small><i>  (Java)</i></small></li>     -->
-                        </ul>
-                        <br/>
+    <div class="columns">
+      <!-- Left column -->
+      <div class="col-div-4">
+        <div class="content-box" style="padding-left: 40px;">
+          <p class="head">Contact</p>
+          <p class="p3"><a href="https://www.linkedin.com/in/neacsu-flavius-158475300/" target="_blank"><i class="phone">&nbsp;&nbsp;LinkedIn profile</i></a></p>
+          <p class="p3"><a href="#" onclick="copyToClipboard('flavius.andrei205@gmail.com'); return false;"><i class="phone">&nbsp;&nbsp;Gmail</i></a></p>
+          <p class="p3"><a href="#" onclick="copyToClipboard('+40738536345'); return false;"><i class="phone">&nbsp;&nbsp;Phone number</i></a></p>
+          <p class="p3"><a href="https://github.com/Snowman23" target="_blank"><i class="phone">&nbsp;&nbsp;GitHub profile</i></a></p>
 
-                        <p class="head">Education</p>
-                        <p class="p4">Politehnica University of Timișoara <br>    
-                                        <small><i>Bachelor of Science in Computer Science </i></small>    <br>
-                                        2023 – Present</p>
-                        <p class="p4">William Shakespeare High School, Timișoara     <br>
-                                        <small><i>High School Diploma </i></small>         <br>
-                                        Graduated: 2023</p>
-                        <p class="p4"><a href="https://www.credly.com/users/neacsu-flavius" target="_blank">Cisco academy badges</a></p>
+          <script>
+            function copyToClipboard(text) {
+              navigator.clipboard.writeText(text).then(() => {
+                alert("Copied: " + text);
+              }).catch(err => {
+                console.error("Failed to copy: ", err);
+              });
+            }
+          </script>
 
-                         <p class="head">PERSONAL SKILLS</p>
-                         <p class="p3">Mother toungue: Romanian</p>
-                         <p class="p3">Other languages:</p> 
-                        <br>
-                         <table>
-                            <tr>
-                              <th>Language</th>
-                              <th>Understanding</th>
-                              <th>Speaking</th>
-                              <th>Writing</th>
-                            </tr>
-                            <tr>
-                              <td>English</td>
-                              <td>
-                                Listening: C2<br>
-                                Reading: C2
-                              </td>
-                              <td>
-                                Spoken Interaction: C1<br>
-                                Spoken Production: C1
-                              </td>
-                              <td>C1</td>
-                            </tr>
-                          </table>
-                        <ul class="skills">
-                        <h5>Communication and Organizational:</h5>
-                        <li><span>Explained technical concepts clearly during group collaborations and code reviews, ensuring team alignment.</span></li>
-                        <li><span>Collaborated effectively in team settings, actively contributing ideas and responding constructively to feedback.</span></li>
-                        <li><span>Wrote clean documentation and project reports, and maintained professional communication through GitHub and group chats.</span></li>
-                        <h5>Organisational / managerial skills:</h5>
-                        <li><span>Coordinated team-based programming projects, managing task delegation, integration, and progress tracking to meet deadlines.</span></li>
-                        <li><span>Practiced effective time management by balancing coursework, extracurricular coding, and self-directed learning.</span></li>
-                        <li><span>Prioritized technical issues during project development to optimize workflow and enhance final deliverables.</span></li>
-                        </ul>
-                    </div>
-                </div>
-
+          <br />
+          <p class="head">Skills</p>
+          <ul class="skills">
+            <h5>Programming Languages:</h5>
+            <li><span>C</span> <small><i>(Intermediate)</i></small></li>
+            <li><span>Java</span> <small><i>(Intermediate)</i></small></li>
+            <li><span>SQL</span> <small><i>(Intermediate)</i></small></li>
+            <li><span>Python</span> <small><i>(Beginner)</i></small></li>
+            <h5>Web Development:</h5>
+            <li><span>HTML</span> <small><i>(Beginner)</i></small></li>
+            <h5>Tools & Technologies:</h5>
+            <li><span>Oracle APEX</span></li>
+            <li><span>Git</span></li>
+            <h5>Digital Competence:</h5>
+            <li><span>Microsoft Office</span></li>
+            <li><span>Visual Studio Code</span></li>
+          </ul>
+          <br />
         </div>
-    </body>    
+      </div>
+
+      <!-- Divider line -->
+      <div class="line"></div>
+
+      <!-- Right column -->
+      <div class="col-div-8">
+        <div class="content-box">
+          <p class="head">Profile</p>
+          <p class="p4">Motivated and detail-oriented Computer Science student at Politehnica University of Timișoara, with hands-on experience in C, Java, SQL, and Python.<br />
+            Demonstrated ability to solve complex problems and collaborate effectively in team settings. Eager to apply academic knowledge to real-world challenges, particularly in software development and data analysis.</p>
+
+          <br />
+          <p class="head">Technical Experience</p>
+          <ul class="skills">
+            <li><a href="https://github.com/Snowman23/Sagrada" target="_blank">Sagrada</a><br />
+              <i><small>Developed a console-based version of the Sagrada board game using C. Implemented game logic and user interface.</small></i></li>
+            <li><a href="https://github.com/Snowman23/cv/blob/master/README_SQL.md" target="_blank">Oracle APEX</a><br />
+              <i><small>Created a web application for managing social media records using Oracle APEX and SQL. Focused on database design and front-end development.</small></i></li>
+          </ul>
+
+          <br />
+          <p class="head">Education</p>
+          <p class="p4">Politehnica University of Timișoara<br />
+            <small><i>Bachelor of Science in Computer Science</i></small><br />
+            2023 – Present</p>
+          <p class="p4">William Shakespeare High School, Timișoara<br />
+            <small><i>High School Diploma</i></small><br />
+            Graduated: 2023</p>
+          <p class="p4"><a href="https://www.credly.com/users/neacsu-flavius" target="_blank">Cisco academy badges</a></p>
+
+          <p class="head">Personal Skills</p>
+          <p class="p3">Mother tongue: Romanian</p>
+          <p class="p3">Other languages:</p>
+          <table>
+            <tr>
+              <th>Language</th>
+              <th>Understanding</th>
+              <th>Speaking</th>
+              <th>Writing</th>
+            </tr>
+            <tr>
+              <td>English</td>
+              <td>Listening: C2<br />Reading: C2</td>
+              <td>Spoken Interaction: C1<br />Spoken Production: C1</td>
+              <td>C1</td>
+            </tr>
+          </table>
+
+          <ul class="skills">
+            <h5>Communication and Organizational:</h5>
+            <li><span>Explained technical concepts clearly during group collaborations and code reviews, ensuring team alignment.</span></li>
+            <li><span>Collaborated effectively in team settings, actively contributing ideas and responding constructively to feedback.</span></li>
+            <li><span>Wrote clean documentation and project reports, and maintained professional communication through GitHub and group chats.</span></li>
+            <h5>Organisational / Managerial Skills:</h5>
+            <li><span>Coordinated team-based programming projects, managing task delegation, integration, and progress tracking to meet deadlines.</span></li>
+            <li><span>Practiced effective time management by balancing coursework, extracurricular coding, and self-directed learning.</span></li>
+            <li><span>Prioritized technical issues during project development to optimize workflow and enhance final deliverables.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
