@@ -28,12 +28,6 @@ A sleek, minimalist **online CV** built with HTML and CSS — designed to be fas
 - 🔗 External links open in new tabs
 - 💡 Simple, clean design with semantic markup
 
-## 💡 Future Improvements
-
-- 🌐 Add dark mode support
-- 💾 Include a downloadable PDF button
-- 💬 Add optional testimonial or reference section
-- 📊 Use a JSON or Markdown-driven template to make edits easier
 
 ## 🙌 Inspiration
 
