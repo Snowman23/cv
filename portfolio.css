@@ -1,13 +1,13 @@
 * {
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: , sans-serif;
 }
 
 body {
-  margin: 0;
-  background: #0f172a;
-  color: #e5e7eb;
+  font-size: 32px !important;
+  background: hotpink !important;
 }
+
 
 header {
   background: linear-gradient(135deg, #1e3a8a, #0f172a);
